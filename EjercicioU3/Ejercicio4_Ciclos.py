@@ -1,9 +1,10 @@
 #!/user/bin/python
-#recorrer lista de manera optima.
-lista = [1,2,3,4,5,6,7,8,9,10]
-for item in lista: print (item)
+#operaciones
+a = [3,4,5]
+for b in a:
+    print(f"I = ({b}) y su cuadrado ({b**2})")
 
-#--------------------------
-# lista = [1,2,3,4,5,6,7,8,9,10]
-# for = item in lista:
-# print(item)
+#----------------------------
+#for i in [3,4,5]:
+# c = b * *2
+#    print("I = (", b, ") y su cuadrado (", c, ")")
