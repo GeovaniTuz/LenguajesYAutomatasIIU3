@@ -1,6 +1,6 @@
 import os
 
-print ("\nCrear un archivo")
+print ("Crear un archivo")
 print ("================")
 
 NOMBRE_ARCHIVO = 'datos.txt'
@@ -15,20 +15,16 @@ if NOMBRE_ARCHIVO in os.listdir("."):
 else:
     print ("El archivo no fue creado!!!\n")
 
-
 print ("\n\nLeer un archivo")
 print ("===============\n")
-
 archivo = open(NOMBRE_ARCHIVO, 'r')
 contenido = archivo.read()
 print (contenido)
 archivo.close()
-
-
 print ("\n\nIterar sobre un archivo")
 print ("=======================\n")
-
 archivo = open(NOMBRE_ARCHIVO, 'r')
+
 for linea in archivo:
     print (linea)
 print ("\n")
